@@ -71,10 +71,10 @@ body {
 
 .logo .fa-bolt {
   color: #fed700;
-  font-size: 22.5px;
+  font-size: 19.5px;
   position: absolute;
   top: 60%;
-  left: 113%;
+  left: 100%;
   transform: translate(-50%, -50%);
   z-index: 1;
 }
@@ -386,7 +386,6 @@ profile-photo .img {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 20px;
 }
 
 .project {
@@ -400,7 +399,7 @@ profile-photo .img {
   text-align: center;
   flex-basis: 32%;
   transition: .3s;
-  row-gap: 15px;
+  row-gap: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -418,7 +417,7 @@ profile-photo .img {
 .project h4 {
   font-size: 26px;
   text-transform: capitalize;
-  margin: 15px 0;
+  margin: 13px 0;
 }
 
 .project p {
